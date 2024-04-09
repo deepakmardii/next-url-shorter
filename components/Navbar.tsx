@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { VscChromeClose } from "react-icons/vsc";
 import { AiOutlineMenu } from "react-icons/ai";
 import Link from "next/link";

@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import React from 'react'
 function Hero() {
     return (
         <div className='static md:ml-20 flex flex-col md:flex-row mb-[10rem]' >

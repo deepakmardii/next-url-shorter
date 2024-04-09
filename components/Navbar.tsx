@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { FcMenu } from "react-icons/fc";
 import { VscChromeClose } from "react-icons/vsc";
 import { AiOutlineMenu } from "react-icons/ai";
 import Link from "next/link";
@@ -22,7 +21,7 @@ function Navbar() {
     <>
       <nav
         className={
-          "py-10 md:py-0 px-8 md:px-20 flex items-center  justify-between md:justify-start max-w-7xl mx-auto text-lg"
+          "py-10 md:py-0 px-8 md:px-20 flex items-center justify-between md:justify-start max-w-7xl mx-auto text-lg"
         }
       >
         <div className="logo md:mr-10">
@@ -31,10 +30,10 @@ function Navbar() {
         <div
           className={`${
             showMe ? "" : "hidden"
-          }    md:flex absolute md:static     md: items-center  rounded-xl    top-24  bg-Violet  md:bg-transparent   md:md:text-gray-400 text-white md:justify-between md:w-full flex-col md:flex-row  inset-x-0 mx-8 z-50 `}
+          }md:flex absolute md:static md: items-center rounded-xl top-24 bg-Violet md:bg-transparent md:md:text-gray-400 text-white md:justify-between md:w-full flex-col md:flex-row inset-x-0 mx-8 z-50 `}
         >
           <div
-            className={`links   flex flex-col   items-center gap-6 my-8  md:flex-row  md:${gap}  `}
+            className={`links flex flex-col items-center gap-6 my-8 md:flex-row md:${gap}`}
           >
             <Link href="/">
               <p className={linkHover}>Feature </p>
@@ -46,15 +45,15 @@ function Navbar() {
               <p className={linkHover}>Resources</p>
             </Link>
           </div>
-          <hr className="border w-[80%]  mx-8 border-gray-600  md:hidden" />
+          <hr className="border w-[80%] mx-8 border-gray-600 md:hidden" />
           <div
-            className={`right   flex w-full md:w-auto   items-center flex-col md:flex-row gap-8 my-8  md:${gap}`}
+            className={`right flex w-full md:w-auto items-center flex-col md:flex-row gap-8 my-8 md:${gap}`}
           >
             <Link href="/">
               <p className={linkHover}>Login</p>
             </Link>
             <Link href="/">
-              <p className=" hover:opacity-50 cursor btn  text-center  bg-Cyan  px-6 py-2 text-white bg-bluish rounded-full ">
+              <p className=" hover:opacity-50 cursor btn  text-center bg-Cyan px-6 py-2 text-white bg-bluish rounded-full ">
                 Sign Up
               </p>
             </Link>

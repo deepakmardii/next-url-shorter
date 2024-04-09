@@ -20,7 +20,7 @@ function Navbar() {
     <>
       <nav
         className={
-          "  py-10 md:py-0 px-8 md:px-20 flex items-center justify-between md:justify-start max-w-7xl mx-auto text-lg  "
+          "font-medium py-10 md:py-0 px-8 md:px-20 flex items-center justify-between md:justify-start max-w-7xl mx-auto text-lg  "
         }
       >
         <div className="logo md:mr-10">
